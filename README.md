@@ -42,26 +42,6 @@ portfolio/
 
 ---
 
-## How to deploy (GitHub Pages — free)
-
-1. Create a GitHub account at github.com
-2. Create a new repository called `portfolio`
-3. Push all files to that repo
-4. Go to Settings → Pages → Source: `main` branch → `/root`
-5. Your site is live at `https://yourusername.github.io/portfolio`
-
----
-
-## Personalisation checklist
-
-- [ ] Replace "Alex Mokoena" with your real name everywhere in `index.html`
-- [ ] Update email, GitHub, and LinkedIn links in the Contact section
-- [ ] Add your real GitHub repo links to each project card
-- [ ] Update project descriptions to match your actual implementations
-- [ ] Add a real profile photo (optional — add an `<img>` tag in the About section)
-- [ ] Update certification names if yours differ
-
----
 
 ## Built with
 
