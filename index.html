@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Senamile Maphoso AI Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a class="nav-logo" href="#hero">SN<span class="dot">.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="orb orb1"></div>
+      <div class="orb orb2"></div>
+      <div class="orb orb3"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">CAPACITI AI Bootcamp 2026</p>
+      <h1 class="hero-name">Senamile Nonhlanhla<br/><em>Maphoso</em></h1>
+      <p class="hero-tagline">I build AI-powered solutions<br/>that solve real-world problems.</p>
+      <div class="hero-badges">
+        <span class="badge">Prompt Engineering</span>
+        <span class="badge">Generative AI</span>
+        <span class="badge">Python</span>
+        <span class="badge">Machine Learning</span>
+      </div>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#projects">View my projects</a>
+        <a class="btn btn-ghost" href="#contact">Get in touch</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-left">
+          <p class="section-label">01 — About</p>
+          <h2 class="section-title">Building the future,<br/><em>one model at a time.</em></h2>
+        </div>
+        <div class="about-right">
+          <p class="about-text">I'm an AI developer who completed the <strong>1-Month AI Bootcamp</strong> by CAPACITI, where I built four end-to-end AI projects across chatbot development, content generation, sentiment analysis, and industry AI solutions.</p>
+          <p class="about-text">I'm passionate about using AI to automate workflows, generate insights, and create tools that genuinely help people students, professionals, and businesses alike.</p>
+          <div class="about-stats">
+            <div class="stat"><span class="stat-num">4</span><span class="stat-label">AI Projects</span></div>
+            <div class="stat"><span class="stat-num">7</span><span class="stat-label">Courses</span></div>
+            <div class="stat"><span class="stat-num">1</span><span class="stat-label">Month</span></div>
+            <div class="stat"><span class="stat-num">∞</span><span class="stat-label">Ideas</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section projects" id="projects">
+    <div class="container">
+      <p class="section-label">02 — Projects</p>
+      <h2 class="section-title">What I've built</h2>
+      <p class="section-sub">Four real-world AI projects completed during the bootcamp — each solving a different problem with a different AI technique.</p>
+      <div class="projects-grid">
+
+        <div class="project-card" data-week="Week 1">
+          <div class="project-header">
+            <div class="project-icon">🤖</div>
+            <div class="project-meta">
+              <span class="project-tag tag-teal">Conversational AI</span>
+              <span class="project-week">Week 1</span>
+            </div>
+          </div>
+          <h3 class="project-title">BudgetBot</h3>
+          <p class="project-desc"> A conversational AI chatbot that helps South Africans take control of their personal finances no bank account access, no jargon, just practical guidance.A functional AI chatbot built with prompt engineering and LLM APIs. Handles user queries, FAQ automation, and support flows with defined use cases and context-aware responses.</p>
+          <div class="project-links">
+            <a class="plink" href="https://github.com/Lerumo-Consulting/budgetbot-money-mentor" target="_blank">GitHub →</a>
+            <a class="plink plink-demo" href="https://budgetbot-money-mentor.lovable.app/"target="_blank">Live demo →</a>
+          </div>
+        </div>
+
+        <div class="project-card featured">
+          <div class="project-header">
+            <div class="project-icon">✍️</div>
+            <div class="project-meta">
+              <span class="project-tag tag-amber">Generative AI</span>
+              <span class="project-week">Week 2</span>
+            </div>
+          </div>
+          <h3 class="project-title">the GlowHub Content Generator</h3>
+          <p class="project-desc">A warm community platform for women to share self-care wisdom: blogs, skincare recipes, wellness routines, and quick tips.This includes a prompt library with reusable templates and demonstrates prompt optimisation for different content types.</p>
+          <div class="project-links">
+            <a class="plink" href="https://github.com/senamilemaphoso6/the-glow-hub" target="_blank">GitHub →</a>
+            <a class="plink plink-demo" href="https://selfcare-ai-studio.lovable.app/" target="_blank">Live demo →</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <div class="project-icon">📊</div>
+            <div class="project-meta">
+              <span class="project-tag tag-purple">Data Analysis</span>
+              <span class="project-week">Week 3</span>
+            </div>
+          </div>
+          <h3 class="project-title"> BookPulse Sentiment Analysis Tool</h3>
+          <p class="project-desc">BookPulse is a cutting-edge, interactive sentiment analysis dashboard for book reviews. It features dynamic charts, filterable review data, and a live sentiment analyzer for text evaluation in real time.</p>
+          <div class="project-links">
+            <a class="plink" href="https://github.com/senamilemaphoso6/BookPulse" target="_blank">GitHub →</a>
+            <a class="plink plink-demo" href="https://bookpulse.lovable.app/"target="_blank">Live demo →</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <div class="project-icon">🌱</div>
+            <div class="project-meta">
+              <span class="project-tag tag-green">AI Solution</span>
+              <span class="project-week">Week 4</span>
+            </div>
+          </div>
+          <h3 class="project-title">HabitFlow AI Coach</h3>
+          <p class="project-desc">Designed and built an end-to-end AI solution for the wellness and personal development industry. HabitFlow is a full-stack AI habit-building and coaching application featuring a conversational AI coach, goal tracking system, daily reflection journal, personalised affirmations, streak and consistency analytics, and a reminder system. The project applies responsible AI considerations, real-world use case mapping, and end-to-end solution architecture. Built as a functional prototype using the Claude API, with full portfolio documentation, GitHub repository, and professional presentation readiness.</p>
+          <div class="project-links">
+            <a class="plink" href="https://github.com/senamilemaphoso6/HabitFlow" target="_blank">GitHub →</a>
+            <a class="plink plink-demo" href="https://habitflowgrowthcap.lovable.app/"target="_blank">Live demo →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section skills-section" id="skills">
+    <div class="container">
+      <p class="section-label">03 — Skills</p>
+      <h2 class="section-title">Tools &amp; Technologies</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h4 class="skill-group-title">AI &amp; Machine Learning</h4>
+          <div class="skill-pills">
+            <span class="skill-pill">Prompt Engineering</span>
+            <span class="skill-pill">Generative AI</span>
+            <span class="skill-pill">Large Language Models</span>
+            <span class="skill-pill">Sentiment Analysis</span>
+            <span class="skill-pill">Supervised ML</span>
+            <span class="skill-pill">Unsupervised ML</span>
+            <span class="skill-pill">NLP</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4 class="skill-group-title">Languages &amp; Dev</h4>
+          <div class="skill-pills">
+            <span class="skill-pill">Python</span>
+            <span class="skill-pill">HTML &amp; CSS</span>
+            <span class="skill-pill">JavaScript</span>
+            <span class="skill-pill">Git &amp; GitHub</span>
+            <span class="skill-pill">REST APIs</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4 class="skill-group-title">Platforms &amp; Tools</h4>
+          <div class="skill-pills">
+            <span class="skill-pill">Claude API</span>
+            <span class="skill-pill">OpenAI API</span>
+            <span class="skill-pill">Google Cloud AI</span>
+            <span class="skill-pill">AWS Bedrock</span>
+            <span class="skill-pill">Loveable</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4 class="skill-group-title">Certifications</h4>
+          <div class="skill-pills">
+            <span class="skill-pill cert">Generative AI: Prompt Engineering — IBM</span>
+            <span class="skill-pill cert">AI For Everyone — DeepLearning.AI</span>
+            <span class="skill-pill cert">Intro to Generative AI — Google Cloud</span>
+            <span class="skill-pill cert">Gen AI with LLMs — AWS &amp; DeepLearning.AI</span>
+            <span class="skill-pill cert">Supervised ML — Stanford / DeepLearning.AI</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="contact-inner">
+        <p class="section-label">04 — Contact</p>
+        <h2 class="section-title">Let's build something<br/><em>together.</em></h2>
+        <p class="contact-text">I'm open to internship opportunities, collaborations, and AI projects. Reach out and let's talk.</p>
+        <div class="contact-links">
+          <a class="contact-link" href="mailto:senamilemaphoso8@gmail.com"><span class="cl-icon">✉</span>senamilemaphoso8@gmail.com</a>
+          <a class="contact-link" href="https://github.com" target="_blank"><span class="cl-icon">⌥</span>https://github.com/senamilemaphoso6</a>
+          <a class="contact-link" href="https://linkedin.com" target="_blank"><span class="cl-icon">in</span>https://www.linkedin.com/in/senamile-maphoso-052ba9210/</a>
+        </div>
+        <a class="btn btn-primary" href="mailto:senamilemaphoso8@gmail.com">Say hello →</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Built by Senamile Maphoso · CAPACITI Clickatell AI Bootcamp 2026</p>
+      <p class="footer-sub">Designed &amp; coded from scratch · Hosted on GitHub Pages</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
