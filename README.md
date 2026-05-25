@@ -1,4 +1,4 @@
-# Senamile MaphosoPersonal AI Portfolio
+# Senamile Maphoso Personal AI Portfolio
 
 > Built during the **CAPACITI  1-Month AI Bootcamp 2026**  
 > Focus: AI Foundations · Prompt Engineering · Applied AI Projects · Portfolio Development
