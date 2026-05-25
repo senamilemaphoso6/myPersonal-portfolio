@@ -52,4 +52,3 @@ portfolio/
 
 ---
 
-*CAPACITI · Greenacres, Gqeberha · capaciti.org.za*
