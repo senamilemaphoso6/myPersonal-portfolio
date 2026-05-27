@@ -36,7 +36,7 @@ portfolio/
 
 1. Open VS Code
 2. Open the `portfolio/` folder
-3. Install the **Live Server** extension (see setup guide below)
+3. Install the **Live Server** extension
 4. Right-click `index.html` → **Open with Live Server**
 5. Your portfolio opens at `http://127.0.0.1:5500`
 
